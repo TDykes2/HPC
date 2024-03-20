@@ -1,5 +1,4 @@
 # BZAN_583_code
-Test 123
 A companion repository to HPCinR/BZAN_583 for bringing code to remote computing.
 
 The repository is set up as a Template so that when copied,  

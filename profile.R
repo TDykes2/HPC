@@ -1,5 +1,4 @@
 Rprof()
-x_pr = prcomp(
   games <- c()
   for(i in 1:100000) {
     doors <- c("A", "B", "C")
@@ -14,6 +13,6 @@ x_pr = prcomp(
     
   }
   mean(games == 1)
-)
+
 Rprof(NULL)
 summaryRprof()

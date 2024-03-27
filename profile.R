@@ -1,6 +1,6 @@
 Rprof()
 x_pr = prcomp(
-games <- c()
+games <- c(),
 for(i in 1:100000) {
   doors <- c("A", "B", "C")
   ourdoor <- sample(doors, size = 1, replace = FALSE)

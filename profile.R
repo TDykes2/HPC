@@ -12,8 +12,8 @@ for(i in 1:100000) {
     games[i] <- 1
   } else {games[i] <- 0}
 
-}
-mean(games == 1)
+},
+mean(games == 1),
 )
 Rprof(NULL)
 summaryRprof()
